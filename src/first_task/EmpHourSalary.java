@@ -2,7 +2,7 @@ package first_task;
 
 import java.util.Scanner;
 
-public class Emp_hour_salary implements Salary{
+public class EmpHourSalary implements Salary{
 
   Scanner scanner = new Scanner(System.in);
   int pay_hour = 100; //кільки заробляє за годину

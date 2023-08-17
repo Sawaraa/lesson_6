@@ -1,6 +1,6 @@
 package first_task;
 
-public class Emp_fix_salary implements Salary {
+public class EmpFixSalary implements Salary {
 
   @Override
   public void salary() {

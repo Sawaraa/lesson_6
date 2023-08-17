@@ -18,8 +18,12 @@ public class MyCalculator implements Numerable {
   }
   @Override
   public void devide() {
-    int devide = firstNumber/secondNumber;
-    System.out.println( firstNumber + " / " + secondNumber + " = " + devide);
+    if( secondNumber == 0){
+      System.out.println("На нуль ділити не можна");
+    }else {
+      int devide = firstNumber / secondNumber;
+      System.out.println(firstNumber + " / " + secondNumber + " = " + devide);
+    }
   }
 
   @Override

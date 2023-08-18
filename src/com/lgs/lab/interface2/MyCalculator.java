@@ -3,19 +3,8 @@ package com.lgs.lab.interface2;
 import com.lgs.lab.interface1.Numerable;
 import java.util.Scanner;
 
-public class MyCalculator implements Numerable {
-  Scanner scanner = new Scanner(System.in);
+public class MyCalculator extends Menu implements Numerable{
 
-  int firstNumber;
-  int secondNumber;
-  void menu(){
-    System.out.println("Введіть першу цифру");
-     firstNumber = scanner.nextInt();
-    System.out.println("Введіть другу цифру");
-     secondNumber = scanner.nextInt();
-
-     scanner.close();
-  }
   @Override
   public void devide() {
     if( secondNumber == 0){

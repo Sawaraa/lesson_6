@@ -7,9 +7,7 @@ public class MyCalculator extends Menu implements Numerable{
 
   @Override
   public void devide() {
-    if( ( firstNumber == 0 && secondNumber == 0)
-        || (firstNumber == 0 && secondNumber !=0)
-        || (firstNumber != 0 && secondNumber == 0)){
+    if(secondNumber == 0){
       System.out.println("На нуль ділити не можна");
     }else {
       int devide = firstNumber / secondNumber;
